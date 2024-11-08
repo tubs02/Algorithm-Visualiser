@@ -242,12 +242,12 @@ public class Visualiser implements ActionListener{
 					
 					panel.setCursor(j);
 					step.run();
-					try { Thread.sleep(1); } catch (Exception e) { e.printStackTrace(); }
 					
 				}
 				
 				array[j + 1] = key;
 				
+				try { Thread.sleep(1); } catch (Exception e) { e.printStackTrace(); }
 			}
 			
 			ready = true;
